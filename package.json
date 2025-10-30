@@ -1,15 +1,16 @@
 {
   "name": "whatsapp-engine",
   "version": "1.0.0",
-  "description": "WhatsApp API with persistent session and QR login (stable build)",
-  "main": "index.js",
+  "description": "WhatsApp API stable build with persistent session",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "qrcode": "^1.5.3",
-    "whatsapp-web.js": "https://github.com/pedroslopez/whatsapp-web.js.git#d7394e7a4a9e02a818caec0f47a1ffcb2f61b35a"
+    "puppeteer-core": "^22.7.1",
+    "whatsapp-web.js": "git+https://github.com/pedroslopez/whatsapp-web.js.git#d7394e7a4a9e02a818caec0f47a1ffcb2f61b35a"
   }
 }
